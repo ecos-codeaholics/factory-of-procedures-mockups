@@ -62,7 +62,20 @@ ul li:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 127, 255, 0.75);
+    background-color: rgba(0, 127, 255, 0.80);
+}
+
+#mock .desc h3 {
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 1em;
+    border: 1px solid rgba(0, 127,255, 0.80);
+}
+
+#mock .desc p {
+    color: #FFFFFF;
+    margin: 1em;
+    text-align: left;
 }
 
 /* Overrides */

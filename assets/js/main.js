@@ -20,12 +20,16 @@ $("a").on("click", function(ev) {
     img.attr("src", path + data[src].file);
 
     desc = $("<div class='desc'></div>");
-    desc.html(data[src].desc).hide();;
+    desc.hide();;
 
     descTitle = $("<h3 class='desc-title'></h3>");
     descTitle.html(data[src].title);
 
-    desc.prepend(descTitle);
+    descContent = $("<p></p>");
+    descContent.html(data[src].desc);
+
+    desc.append(descTitle);
+    desc.append(descContent);
 
     mockContainer.append(img);
     mockContainer.append(desc);
