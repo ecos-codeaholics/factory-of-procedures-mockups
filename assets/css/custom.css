@@ -1,0 +1,51 @@
+html, body, .full-height {
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#accordion {
+    height: 100%;
+}
+
+.container {
+    padding: 10px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul li {
+    padding: 0.5em;
+}
+
+ul li a,
+ul li span {
+    display: block;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+ul li:nth-child(odd) {
+    background-color: #E6E6E6;
+}
+
+ul li:nth-child(even) {
+    background-color: #BCBCBC;
+}
+
+ul li:hover {
+    background-color: #DEEFFF;
+}
+
+
+/* Overrides */
+
+.ui-accordion
+.ui-accordion-content {
+    padding: 0;
+}

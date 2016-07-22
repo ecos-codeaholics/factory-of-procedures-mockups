@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Codeaholics - Mockups Fábrica de Trámites</title>
+
+    <link rel="stylesheet" href="assets/css/base.min.css">
+    <link rel="stylesheet" href="assets/css/grids-min.css">
+    <link rel="stylesheet" href="assets/css/grids-responsive-min.css">
+
+    <link rel="stylesheet" href="assets/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="assets/css/jquery-ui.theme.min.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+    
+  </head>
+  <body class="full-height">
+    <div class="container full-height">
+      <div class="pure-g full-height">
+	<div class="pure-u-1-5 full-height">
+	  <div id="accordion">
+	    <h3>Usuario Super Administrador</h3>
+	    <div>
+	      <ul>
+		<li>
+		  <a href="#" data-source="01">Dashboard</a>
+		</li>
+		<li>
+		  <a href="#" data-source="02">Listar alcaldías</a>
+		</li>
+		<li>
+		  <a href="#" data-source="03">Crear alcaldía</a>
+		</li>
+		<li>
+		  <a href="#" data-source="04">Listar trámites</a>
+		</li>
+		<li>
+		  <a href="#" data-source="05">Crear Trámite (FormBuilder)</a>
+		</li>
+		<li>
+		  <a href="#" data-source="06">Crear trámite (FormBuilder, Field Attributes)</a>
+		</li>
+		<li>
+		  <a href="#" data-source="07">Crear trámite (FormBuilder, Field Validate)</a>
+		</li>
+		<li>
+		  <a href="#" data-source="08">Crear trámite (FlowBuilder, Activities)</a>
+		</li>
+		<li>
+		  <a href="#" data-source="09">Crear trámite (FlowBuilder, Assignment)</a>
+		</li>
+		<li>
+		  <a href="#" data-source="10">Asignar privilegios a usuario</a>
+		</li>
+	      </ul>
+	    </div>
+	    <h3>Usuario Administrador</h3>
+	    <div>
+	      <ul>
+		<li>
+		  <a href="#" data-source="12">Dashboard</a>
+		</li>
+		<li>
+		  <a href="#" data-source="13">Editar alcaldía</a>
+		</li>
+		<li>
+		  <a href="#" data-source="14">Litar trámites pendientes</a>
+		</li>
+		<li>
+		  <a href="#" data-source="15">Listar funcionarios alcaldía</a>
+		</li>
+	    </div>
+	    <h3>Usuario Funcionario</h3>
+	    <div>
+	      <ul>
+		<li>
+		  <a href="#" data-source="16">Dashboard</a>
+		</li>
+		<li>
+		  <a href="#" data-source="16.1">Dashboard, notificación de actividad</a>
+		</li>
+		<li>
+		  <a href="#" data-source="17">Listar trámites pendientes</a>
+		</li>
+		<li>
+		  <a href="#" data-source="18">Ver información trámite radicado</a>
+		</li>
+		<li>
+		  <a href="#" data-source="19">Ver requerimientos trámite radicado</a>
+		</li>
+		<li>
+		  <a href="#" data-source="20">Ver/editar flujo trámite radicado</a>
+		</li>
+		<li>
+		  <a href="#" data-source="22">Filtrar trámites por radicado o rango de fechas</a>
+		</li>
+		<li>
+		  <a href="#" data-source="23">Aprovar trámite</a>
+		</li>
+	      </ul>
+	    </div>
+	    <h3>Usuario Ciudadano</h3>
+	    <div>
+	      <ul>
+		<li>
+		  <a href="#" data-source="24">Dashboard</a>
+		</li>
+		<li>
+		  <a href="#" data-source="25">Dashboard notificación ciudadano</a>
+		</li>
+		<li>
+		  <a href="#" data-source="26">Iniciar trámite</a>
+		</li>
+		<li>
+		  <a href="#" data-source="27">Subir archivos de requerimientos</a>
+		</li>
+		<li>
+		  <a href="#" data-source="28">Listar trámites en curso</a>
+		</li>
+		<li>
+		  <a href="#" data-source="23">listar histórico de trámites</a>
+		</li>
+	      </ul>
+	    </div>
+	    <h3>Codeaholics</h3>
+	    <div>
+	      <ul>
+		<li>
+		  <span>Andrés Felipe Osorio</span>
+		</li>
+		<li>
+		  <span>David Martinez</span>
+		</li>
+		<li>
+		  <span>Jheison Rodriguez</span>
+		</li>
+		<li>
+		  <span>Sebastián Cardona</span>
+		</li>
+		<li>
+		  <span>Fabián Hernández</span>
+		</li>
+	      </ul>
+	    </div>
+	  </div>
+	</div>
+	<div class="pure-u-4-5">
+	  Contenido
+	</div>
+      </div>
+    </div>
+      
+    <script>
+      $("#accordion").accordion({
+      heightStyle: "fill"
+      });
+      
+      $(window).resize(function() {
+      $("#accordion").accordion("resize");
+      })
+    </script>
+    
+  </body>
+</html>
