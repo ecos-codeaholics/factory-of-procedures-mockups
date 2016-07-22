@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Codeaholics - Mockups Fábrica de Trámites</title>
 
-    <link rel="stylesheet" href="assets/css/base.min.css">
+    <link rel="stylesheet" href="assets/css/base-min.css">
     <link rel="stylesheet" href="assets/css/grids-min.css">
     <link rel="stylesheet" href="assets/css/grids-responsive-min.css">
 
@@ -14,7 +14,8 @@
 
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/jquery-ui.min.js"></script>
-    
+
+    <script src="assets/js/data.js"></script>
   </head>
   <body class="full-height">
     <div class="container full-height">
@@ -146,21 +147,14 @@
 	    </div>
 	  </div>
 	</div>
-	<div class="pure-u-4-5">
-	  Contenido
+	<div class="pure-u-4-5 full-height">
+	  <div id="mock" class="full-height">
+	  </div>
 	</div>
       </div>
     </div>
       
-    <script>
-      $("#accordion").accordion({
-      heightStyle: "fill"
-      });
-      
-      $(window).resize(function() {
-      $("#accordion").accordion("resize");
-      })
-    </script>
-    
+    <script src="assets/js/main.js"></script>
+   
   </body>
 </html>

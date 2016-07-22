@@ -42,6 +42,10 @@ ul li:hover {
     background-color: #DEEFFF;
 }
 
+#mock img {
+    height: 100%;
+    margin: 0 auto;
+}
 
 /* Overrides */
 
