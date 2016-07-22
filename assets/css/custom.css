@@ -42,9 +42,27 @@ ul li:hover {
     background-color: #DEEFFF;
 }
 
+#content {
+    text-align: center;
+}
+
+#mock {
+    display: inline-block;
+    position: relative;
+}
+
 #mock img {
     height: 100%;
     margin: 0 auto;
+}
+
+#mock .desc {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 127, 255, 0.75);
 }
 
 /* Overrides */
