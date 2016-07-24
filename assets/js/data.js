@@ -1,5 +1,15 @@
 var data = [];
 
+data["00"] = {
+    "file": "00-user-login.png",
+    "title": "Login",
+    "desc": "Descripcion" };
+
+data["000"] = {
+    "file": "000-user-signup.png",
+    "title": "Login",
+    "desc": "Descripcion" };
+
 data["01"] = {
     "file": "01-super-admin-dashboard.png",
     "title": "Dashboard",
