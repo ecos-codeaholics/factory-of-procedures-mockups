@@ -13,7 +13,7 @@ data["000"] = {
 data["01"] = {
     "file": "01-super-admin-dashboard.png",
     "title": "Dashboard",
-    "desc": "Vista principal (home) del superusuario." };
+    "desc": "Vista principal (home) del superadministrador." };
 
 data["02"] = {
     "file": "02-super-admin-mayoralty-list.png",
